@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:small_projects/DialogueAlert/alertdialog.dart';
+import 'package:small_projects/FloatingPicture/pip_view.dart';
 import 'package:small_projects/language_translator/language_translation.dart';
 import 'package:small_projects/scanqrcode/scanQrcode.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: ScanQRCode(),
+      home: Pip(),
     );
   }
 }

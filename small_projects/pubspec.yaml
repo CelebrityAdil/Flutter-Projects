@@ -38,6 +38,7 @@ dependencies:
   # flutter_barcode_scanner: ^3.0.2
   translator: ^1.0.4+1
   mobile_scanner: ^5.2.3
+  pip_view: ^0.9.5
 
 dev_dependencies:
   flutter_test:
